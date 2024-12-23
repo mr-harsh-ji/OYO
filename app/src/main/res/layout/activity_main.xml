@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp">
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="109dp"
+        android:src="@drawable/oyo1"
+        android:layout_marginLeft="12dp"/>
+
+        <LinearLayout
+            android:layout_width="101dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/outline">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/flag" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:text="en"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/baseline_keyboard_arrow_down_24"
+                android:backgroundTint="#6D6C6C"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome aboard!"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Enjoy extra ₹100 off on your"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="first stay!🎉"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/outline_1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/flag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="+91"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:src="@drawable/baseline_keyboard_arrow_down_24" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:hint="Enter mobile number"
+            android:textSize="20dp"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/outline_1"
+        android:backgroundTint="#CA102F"
+        android:gravity="center"
+        android:id="@+id/confirm_button">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="30dp"
+        android:background="#C7C7C7"/>
+
+    <LinearLayout
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="-14dp"
+        android:layout_marginLeft="205dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/outline_1">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/google" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue with Google"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/outline_1">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/baseline_call_24"
+            android:backgroundTint="#2680EA"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One tap login with Truecaller"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'll signup later"
+        android:textSize="17dp"
+        android:textColor="#2680EA"/>
+
+    </LinearLayout>
+
+</LinearLayout>
